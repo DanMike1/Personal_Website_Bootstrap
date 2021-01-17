@@ -8,6 +8,9 @@
     align-items: center;
     height: 100vh;
 }
+/* body{
+    background-color: black;
+} */
 
 ul{
     list-style: none;
@@ -35,6 +38,7 @@ ul{
     font-style: normal;
     font-weight: normal;
     line-height: 1.1em;
+    transform: translate(-0%,-60%);
 }
 
 .imgcontain{
@@ -46,6 +50,7 @@ ul{
     flex-direction: row;
     width: 20000px; 
     height: 513px;
+    z-index: 1500;
     object-fit: cover;
     width: auto;    
   
@@ -79,6 +84,7 @@ img{
 }
 .btn-circles:hover{
     background-color: black;
+    color: white;
 }
 .linking a{
     text-decoration: none;
@@ -93,4 +99,74 @@ img{
 .copyr{
     font-size: 13px;
     color: rgb(134, 134, 134);
+    padding-top: 20px;
 }
+.nav-item{
+    color: black !important;
+    font-size: small;
+
+    
+}
+#navi{
+    z-index: 1700 ;
+    background: rgba(255, 255, 255, 0.95); 
+    width: 250px;
+    height: 800px!important;
+    width: 250px;
+    margin-left:50px ; 
+    
+    
+}
+
+.nav-item{
+    align-content: flex-start;
+    
+}
+#myNav{
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.m{
+    margin-top: -240px !important;
+}
+
+.p{
+    padding: 0 !important;
+}
+.lin{
+    padding-top: 230px;
+   
+
+    
+}
+.lin1{
+    margin-top:180px ;
+}
+
+@media (max-width:768px){
+    
+    #navi{
+        z-index: 1700 ;
+        position: fixed !important;
+        background: rgba(0, 0, 0,);
+        
+
+    }
+    #myNav{
+
+        width: 350px; 
+    }
+    .imgcontain{
+        display: flex;
+        flex-direction: row;
+        width: 375px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+}
+    
+
+
+}
+
