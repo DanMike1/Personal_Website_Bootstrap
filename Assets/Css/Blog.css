@@ -1,5 +1,5 @@
 
-/* 
+
 .imgcontain{
     margin-left: 320px;
     display: flex;
@@ -10,12 +10,13 @@
     width: 20000px; 
     height: 513px;
     z-index: 1500;
-    object-fit: cover;
-    width: auto;    
+    /* object-fit: cover; */
+    /* width: auto;     */
   
 
 
 }
+/* 
 .copyr{
     font-size: 13px;
     color: rgb(134, 134, 134);
@@ -27,17 +28,15 @@
 
     
 } */
-.navi{
+/* .navi{
     z-index: 1700 ;
     background: rgba(255, 255, 255, 0.95); 
     width: 250px;
-    /* height: 1500px!important; */
+    /* height: 1500px!important; 
     width: 250px;
+}*/
     
-    
-    
-    
-}
+
 
 /* .nav-item{
     align-content: flex-start;
@@ -66,8 +65,18 @@
 } */
 
 @media (max-width:768px){
-    
-    #navi{
+    /* for small screens */
+    .navhead{
+        display: none !important;
+    }
+    #idi{
+        width: auto !important;
+    }
+    .gimages{
+        max-width: 100%;
+        height: 311px;
+    }
+    /* #navi{
         z-index: 1700 ;
         position: fixed !important;
         background: rgba(0, 0, 0,);
@@ -85,8 +94,48 @@
         height: auto;
         padding: 0;
         margin: 0;
+} */
 }
-    
-
-
+@media only screen and (min-width: 768px) {
+    .gimages{
+        max-width: 100%;
+        height: 512px;
+    }
+.brandhead{
+    display: none !important;
+}
+#idi{
+    left: 70px;
+    height: 100%;
+}
+}
+#idi{
+position: fixed;
+background-color: rgba(255, 255, 255, 0.95);
+width: 250px;
+z-index: 2000000000000;
+}
+#divi{
+    background-color: red;
+}
+#myNav{
+    font-size: small;
+}
+.lik{
+    width: 21px;
+    height: 21px;
+    padding: 2px 0px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(104, 103, 103);
+    color: azure;
+    font-size: 10px;
+    line-height: 1.42857;
+}
+#sha{
+    width: 60px;
+}
+.lik:hover{
+    background-color: black;
+    color: white;
 }
