@@ -64,6 +64,7 @@
     margin-top:180px ;
 } */
 
+
 @media (max-width:768px){
     /* for small screens */
     .navhead{
@@ -71,11 +72,29 @@
     }
     #idi{
         width: auto !important;
+        background-color: white !important;
+        
+        
     }
     .gimages{
         max-width: 100%;
         height: 311px;
     }
+    .midi{
+        justify-content: center;
+        padding: 0;
+        margin-top: 0;
+        font-size: large !important;
+        
+    
+    }
+    #sha{
+        display: none !important;
+    }
+    .imgcontain{
+        width: 12000px;
+    }
+    
     /* #navi{
         z-index: 1700 ;
         position: fixed !important;
@@ -107,7 +126,11 @@
 #idi{
     left: 70px;
     height: 100%;
+    
+    
 }
+
+
 }
 #idi{
 position: fixed;
@@ -131,6 +154,7 @@ z-index: 2000000000000;
     color: azure;
     font-size: 10px;
     line-height: 1.42857;
+    margin-top: 150px;
 }
 #sha{
     width: 60px;
