@@ -1,4 +1,43 @@
-
+#idi{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 250px;
+    z-index: 2000000000000;
+    }
+    
+    #myNav{
+        font-size: small;
+    }
+    .lik{
+        width: 21px;
+        height: 21px;
+        padding: 2px 0px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgb(104, 103, 103);
+        color: azure;
+        font-size: 10px;
+        line-height: 1.42857;
+        margin-top: 150px;
+    }
+    #sha{
+        width: 60px;
+    }
+    .lik:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    #conImg{
+        top: 60px;
+        height: 380px;
+        width: 1000px;
+        
+        
+    }
+    .aboutm{
+        width: 400px;
+    }
 
 .imgcontain{
     margin-left: 320px;
@@ -10,63 +49,26 @@
     width: 20000px; 
     height: 513px;
     z-index: 1500;
-    /* object-fit: cover; */
-    /* width: auto;     */
   
 
 
 }
-/* 
-.copyr{
-    font-size: 13px;
-    color: rgb(134, 134, 134);
-    padding-top: 20px;
-}
-.nav-item{
-    color: black !important;
-    font-size: small;
-
-    
-} */
-/* .navi{
-    z-index: 1700 ;
-    background: rgba(255, 255, 255, 0.95); 
-    width: 250px;
-    /* height: 1500px!important; 
-    width: 250px;
-}*/
-    
-
-
-/* .nav-item{
-    align-content: flex-start;
-    
-}
-#myNav{
-    top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.m{
-    margin-top: -240px !important;
+#minimg{
+    width: 100px;
+    height: 100px;
 }
 
-.p{
-    padding: 0 !important;
-}
-.lin{
-    padding-top: 230px;
-   
-
-    
-}
-.lin1{
-    margin-top:180px ;
-} */
 
 
 @media (max-width:768px){
     /* for small screens */
+    #txt1{
+        width: 100%;
+    }
+    #conImg{
+        width:100% !important;
+    }
+    
     .navhead{
         display: none !important;
     }
@@ -95,25 +97,7 @@
         width: 12000px;
     }
     
-    /* #navi{
-        z-index: 1700 ;
-        position: fixed !important;
-        background: rgba(0, 0, 0,);
-        
 
-    }
-    #myNav{
-
-        width: 350px; 
-    }
-    .imgcontain{
-        display: flex;
-        flex-direction: row;
-        width: 375px;
-        height: auto;
-        padding: 0;
-        margin: 0;
-} */
 }
 @media only screen and (min-width: 768px) {
     .gimages{
@@ -131,35 +115,4 @@
 }
 
 
-}
-#idi{
-position: fixed;
-background-color: rgba(255, 255, 255, 0.95);
-width: 250px;
-z-index: 2000000000000;
-}
-#divi{
-    background-color: red;
-}
-#myNav{
-    font-size: small;
-}
-.lik{
-    width: 21px;
-    height: 21px;
-    padding: 2px 0px;
-    border-radius: 15px;
-    text-align: center;
-    background-color: rgb(104, 103, 103);
-    color: azure;
-    font-size: 10px;
-    line-height: 1.42857;
-    margin-top: 150px;
-}
-#sha{
-    width: 60px;
-}
-.lik:hover{
-    background-color: black;
-    color: white;
 }
