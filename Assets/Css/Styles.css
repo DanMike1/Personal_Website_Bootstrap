@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+body{
+    font-family: 'Bodoni Moda', serif;
+}
 #bloglin{
     text-decoration: none;
     color: black;
