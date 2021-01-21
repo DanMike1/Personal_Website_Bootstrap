@@ -1,3 +1,9 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .bloglin{
     text-decoration: none;
     color: black;
@@ -96,6 +102,9 @@ li{
 
 @media (max-width:768px){
     /* for small screens */
+    #Inblog{
+        width: 100%;
+    }
     #txt1{
         width: 100%;
     }
