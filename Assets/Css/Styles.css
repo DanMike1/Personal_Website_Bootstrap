@@ -1,3 +1,12 @@
+#bloglin{
+    text-decoration: none;
+    color: black;
+
+}
+#bloglin:hover{
+    text-decoration: none;
+    color: black;
+}
 .cover{
     display: flex;
     justify-content: center;
@@ -89,9 +98,14 @@ li{
     width: 20000px; 
     height: 513px;
     z-index: 1500;
+    
+    
   
 
 
+}
+.imgcontain img{
+    margin-right: 2px;
 }
 #minimg{
     width: 100px;
